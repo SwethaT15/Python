@@ -1,0 +1,8 @@
+Create Acronyms using Python
+
+User_input=str(input("Enter the String"))
+text=User_input.split()
+a=" "
+for i in text:
+ a=a+i[0].upper()
+print(a)
